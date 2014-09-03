@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_game_button">New game</string>
+    <string name="start_desc">Start:</string>
+    <string name="end_desc">End:</string>
+    <string name="my_app_name">Keep Score</string>
+    <string name="game_type">Game</string>
+    <string name="winner_desc">Winner:</string>
+    <string name="new_game_title">New game</string>
+    <string name="error_title">Error</string>
+    <string name="new_game_error">You must provide game name and at least two players!</string>
+    <string name="confirm_title">Confirm</string>
+    <string name="delete_game_confirmation">Delete this game?</string>
+    <string name="yesno_end_game">End this game?</string>
+    <string name="add_score_dialog_title">Score addition</string>
+    <string name="game_ended">Game ended</string>
+    <string name="game_not_updated">Game didn\'t updated</string>
+    <string name="game_deleted">Game deleted</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="game_name_desc">Game name</string>
+    <string name="game_winner">Winner:</string>
+    <string name="game_max">Max score</string>
+    <string name="game_min">Min score</string>
+    <string name="game_create">Create</string>
+    <string name="players_desc">Players</string>
+    <string name="score_desc">Score</string>
+    <string name="game_end_button">End game</string>
+    <string name="no_duplicates">No duplicate names allowed!</string>
+    <string name="action_help">Help</string>
+    <string name="help_section1">1. Startup screen</string>
+    <string name="help_paragraph1_1">At the startup screen you can see a list of all games played so far,
+        and a button to add a new game.</string>
+    <string name="help_paragraph1_2">The list will be empty at first and you can add a new game by pressing the button.
+        This will open the new game screen.</string>
+    <string name="help_paragraph1_3">Touching a game will display the game view.</string>
+    <string name="help_section2">2. New game</string>
+    <string name="help_paragraph2_1">To create a new game you have to enter a game name, and add two players from your Players List</string>
+    <string name="help_paragraph2_2">Choose the way the winner is elected, it can be the one with the highest or the lowest score.</string>
+    <string name="help_section3">3. Game screen.</string>
+    <string name="help_paragraph3_1">Contains a list of all the players in the game and their scores.
+        To add score points to a player touch the relevant line. You can delete the game by touching the trashcan at the bar.</string>
+    <string name="help_paragraph3_2">The list is sorted every time there is a score change. The sort order will be ascending
+        or descending in respect with the game winning method.</string>
+    <string name="help_paragraph3_3">The game is over when a touch at the button \"End game\" is performed. The startup screen will now
+        have a populated \"Winner\" field.</string>
+    <string name="help_paragraph3_4">Long touch on a player line will display the player\'s score history.</string>
+    <string name="help_section4">4. Players List.</string>
+    <string name="help_paragraph4_1">At your Players List you can choose the players who will take part in each game.</string>
+    <string name="help_paragraph4_2">Long touching a player will transfer you to the Edit Player screen where you can change the player\'s name or image. Touching the trashcan at the bar will delete this player,
+        if he/she has no games played.</string>
+    <string name="help_paragraph4_3">You can add a new player by touching the Add Player icon in the top bar. You must enter at least the Player\'s name.</string>
+    <string name="help_paragraph4_4">You can add an image from your gallery or take one with your camera. You can also import the player\'s name and image from your Contacts.</string>
+    <string name="search_menu_entry">Search</string>
+    <string name="action_about">About</string>
+    <string name="created_by">Created by</string>
+    <string name="my_url">http://www.sv1jsb.gr</string>
+    <string name="sort_menu_entry">Sort</string>
+    <string name="search_gamename">Game name</string>
+    <string name="search_playername">Winner</string>
+    <string name="search_date_text">Date</string>
+    <string name="nogames">No games found!</string>
+    <string name="noplayers">No players</string>
+    <string name="addplayers">Add players</string>
+    <string name="player_filter">List filter</string>
+    <string name="new_player_menu">New player</string>
+    <string name="player_name_hint">Player\'s name</string>
+    <string name="player_photo">Player photo</string>
+    <string name="choose_players">Choose players</string>
+    <string name="no_player_name">Player\'s name is empty</string>
+    <string name="player_photo_btn">Image</string>
+    <string name="edit_player_sub">Edit player</string>
+    <string name="no_camera_found">No camera found</string>
+    <string name="no_gallery_found">No gallery found</string>
+    <string name="import_from_contacts">Import from</string>
+    <string name="edit_image">Edit image</string>
+    <string name="delete_player">Delete player</string>
+    <string name="delete_player_confirmation">Delete this player?</string>
+    <string name="player_has_games">This player has played games and can not be deleted!</string>
+    <string name="first_delete_games">Delete first these games:</string>
+    <string name="player_deleted_ok">Player deleted!</string>
+    <string name="player_deleted_error">Error while deleting!</string>
+    <string name="delete_game">Delete game</string>
+    <string name="no_score_yet">No score yet</string>
+    <string name="score_history">Score history</string>
+    <string name="url_sv1jsb">http://www.sv1jsb.gr</string>
+    <string-array name="sort_array">
+        <item>Default</item>
+        <item>Game</item>
+        <item>Winner</item>
+        <item>Date (Ascending)</item>
+    </string-array>
+    <string-array name="method_array">
+        <item>Max score</item>
+        <item>Min score</item>
+    </string-array>
+    <string-array name="photo_array">
+        <item>Use camera</item>
+        <item>From gallery</item>
+    </string-array>
+    <string-array name="import_from_array">
+        <item>Contacts</item>
+    </string-array>
+</resources>

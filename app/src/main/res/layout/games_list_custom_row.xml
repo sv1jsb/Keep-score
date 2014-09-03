@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:background="@android:drawable/alert_light_frame">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_launcher"
+        android:paddingRight="0dp"
+        android:paddingLeft="10dp" />
+
+    <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/game_listview_custom_row_NAME_textView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="4dp"
+                android:textColor="@android:color/holo_red_dark"
+                android:text="NAME"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/game_listview_custom_row_desc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="0dp"
+                android:text="@string/start_desc"
+                android:textSize="16sp"
+                android:layout_below="@+id/game_listview_custom_row_NAME_textView"
+                android:textColor="#333333" />
+            <TextView
+                android:id="@+id/game_listview_custom_row_DATE_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="4dp"
+                android:text="DATE"
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/game_listview_custom_row_desc1"
+                android:layout_toEndOf="@+id/game_listview_custom_row_desc1"
+                android:layout_alignBottom="@+id/game_listview_custom_row_desc1"
+                android:textColor="#333333" />
+
+            <TextView
+                android:id="@+id/game_listview_custom_row_desc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="0dp"
+                android:text="@string/end_desc"
+                android:textSize="16sp"
+                android:layout_below="@+id/game_listview_custom_row_desc1"
+                android:textColor="#333333" />
+            <TextView
+                android:id="@+id/game_listview_custom_row_DATE_END_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="18dp"
+                android:paddingRight="4dp"
+                android:text="DATE"
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/game_listview_custom_row_desc2"
+                android:layout_toEndOf="@+id/game_listview_custom_row_desc2"
+                android:layout_alignBottom="@+id/game_listview_custom_row_desc2"
+                android:textColor="#333333" />
+            <TextView
+                android:id="@+id/game_listview_custom_row_desc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="0dp"
+                android:text="@string/winner_desc"
+                android:textSize="16sp"
+                android:layout_below="@+id/game_listview_custom_row_desc2"
+                android:textColor="#333333" />
+            <TextView
+                android:id="@+id/game_listview_custom_row_WINNER_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="ANDREAS"
+                android:textSize="16sp"
+                android:layout_below="@+id/game_listview_custom_row_desc2"
+                android:layout_toRightOf="@+id/game_listview_custom_row_desc3"
+                android:layout_toEndOf="@+id/game_listview_custom_row_desc3"
+                android:textColor="@android:color/holo_red_dark"
+                android:paddingRight="4dp" />
+        </RelativeLayout>
+</LinearLayout>

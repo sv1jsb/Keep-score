@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+    <ImageView
+        android:id="@+id/ivPlayerPhoto"
+        android:layout_width="0dp"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_weight="1"
+        android:src="@drawable/user"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_vertical"
+        android:padding="3dp" />
+    <TextView
+        android:id="@+id/player_listview_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        android:layout_weight="3"
+        android:text="Player name"
+        android:textColor="#ffffffff"
+        android:gravity="center_vertical"
+        android:ellipsize="end"
+        android:maxLines="2"/>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerCheck"
+        android:layout_weight="1"
+        android:src="@android:drawable/checkbox_off_background"
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout>

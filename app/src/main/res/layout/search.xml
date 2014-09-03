@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:fillViewport="true"
+    android:measureAllChildren="false">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchName"
+            android:layout_margin="10dp"
+            android:hint="@string/search_gamename"
+            android:inputType="text|textNoSuggestions"
+            android:textCursorDrawable="@null"
+            android:textColorHighlight="#ffffffff"
+            android:textColorLink="#ffffffff" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/searchName"
+            android:id="@+id/searchWinner"
+            android:layout_margin="10dp"
+            android:hint="@string/search_playername"
+            android:inputType="text|textNoSuggestions" />
+        <LinearLayout
+            android:id="@+id/searchBtnLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/searchWinner"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:id="@+id/searchDate"
+                android:text="@string/search_date_text"
+                android:background="@drawable/greybutton" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:id="@+id/searchDateText"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_menu_entry"
+            android:id="@+id/searchBtn"
+            android:background="@drawable/orangebutton"
+            android:layout_gravity="center_horizontal"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:textSize="26sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+</ScrollView>

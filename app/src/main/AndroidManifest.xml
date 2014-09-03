@@ -1,0 +1,67 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gr.sv1jsb.kratascore">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-feature android:name="android.hardware.Camera" android:required="false"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/my_app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing"
+            android:name="gr.sv1jsb.kratascore.KrataScoreActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing"
+            android:name="gr.sv1jsb.kratascore.NewGameActivity"
+            android:parentActivityName="gr.sv1jsb.kratascore.KrataScoreActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gr.sv1jsb.kratascore.KrataScoreActivity" />
+        </activity>
+        <activity
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing"
+            android:name="gr.sv1jsb.kratascore.PlayerListActivity"
+            android:parentActivityName="gr.sv1jsb.kratascore.NewGameActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gr.sv1jsb.kratascore.NewGameActivity" />
+        </activity>
+        <activity
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing"
+            android:name="gr.sv1jsb.kratascore.PlayerActivity"
+            android:parentActivityName="gr.sv1jsb.kratascore.PlayerListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gr.sv1jsb.kratascore.PlayerListActivity" />
+        </activity>
+        <activity
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing"
+            android:name="gr.sv1jsb.kratascore.SearchActivity"
+            android:parentActivityName="gr.sv1jsb.kratascore.KrataScoreActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gr.sv1jsb.kratascore.KrataScoreActivity" />
+        </activity>
+        <activity
+            android:name="gr.sv1jsb.cropimage.CropImage"
+            android:label="@string/edit_image"
+            android:icon="@drawable/ic_launcher">
+        </activity>
+        <provider
+            android:name="gr.sv1jsb.kratascore.provider.KrataScoreProvider"
+            android:authorities="gr.sv1jsb.kratascore.provider"
+            android:enabled="true"
+            android:exported="false" >
+        </provider>
+    </application>
+
+</manifest>

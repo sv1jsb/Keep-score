@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="gr.sv1jsb.kratascore.PlayerActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@android:color/holo_blue_dark"
+        android:clickable="false">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editPlayerName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:hint="@string/player_name_hint"
+            android:inputType="text|textNoSuggestions"
+            android:textColor="#ffffffff"
+            android:textSize="18sp" />
+
+        <Button
+            android:textSize="26sp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/orangebutton"
+            android:text="@string/ok"
+            android:id="@+id/btnSavePlayer"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/editPlayerName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:measureWithLargestChild="false"
+            android:id="@+id/linearLayout">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:id="@+id/imgbtnUserPhoto"
+                android:layout_weight="1"
+                android:text="@string/player_photo_btn"
+                android:shadowColor="#000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:background="@drawable/bluebutton" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/ivPlayerPhoto"
+                android:src="@drawable/user"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/linearLayout"
+            android:layout_marginTop="15dp"
+            android:id="@+id/simpleline"
+            android:background="#ff12beff"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/simpleline"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/import_from_contacts"
+                android:id="@+id/ImportFromBtn"
+                android:layout_weight="1"
+                android:background="@drawable/greybutton"
+                android:layout_gravity="center_vertical" />
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/spinnerImportFrom"
+                android:spinnerStyle="@android:style/Widget.Spinner.DropDown"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

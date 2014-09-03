@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andreas.kratascore.GameFragment"
+    android:padding="10dp"
+    android:background="@android:color/holo_blue_dark"
+    android:clickable="false">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/new_game_title"
+        android:id="@+id/textGameTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_blue_dark"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearGame"
+        android:layout_below="@+id/textGameTitle">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:drawable/alert_dark_frame"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/playerDesc"
+                android:text="@string/players_desc"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/scoreDesc"
+                android:text="@string/score_desc"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice"
+        android:dividerHeight="0dp"
+        android:divider="#ff828180"
+        android:layout_above="@+id/linearLayoutButton"
+        android:layout_below="@+id/linearGame"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+    </ListView>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:id="@android:id/empty"
+        android:indeterminate="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayoutButton">
+
+        <Button
+            android:textSize="26sp"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:background="@drawable/orangebutton"
+            android:text="@string/game_end_button"
+            android:id="@+id/btnEnd"
+            android:layout_weight="1" />
+        <Button
+            android:textSize="26sp"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:background="@drawable/orangebutton"
+            android:text="@string/game_end_button"
+            android:id="@+id/btnShare"
+            android:visibility="gone"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</RelativeLayout>

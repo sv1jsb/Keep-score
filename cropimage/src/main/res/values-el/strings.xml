@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Επεξ. εικόνας</string>
+    <string name="cancel">Άκυρο</string>
+    <string name="save">Αποθ.</string>
+    <string name="saving_image">Αποθ. εικόνας</string>
+    <string name="preparing_card">Προετοιμασία κάρτας</string>
+    <string name="no_storage_card">Δεν υπάρχει κάρτα</string>
+    <string name="not_enough_space">Δεν υπάρχει χώρος</string>
+</resources>

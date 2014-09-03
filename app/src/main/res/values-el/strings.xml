@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_game_button">Νέο παιχνίδι</string>
+    <string name="start_desc">Έναρξη:</string>
+    <string name="end_desc">Τέλος:</string>
+    <string name="my_app_name">Κράτα Σκορ</string>
+    <string name="game_type">Παιχνίδι</string>
+    <string name="winner_desc">Νικητής:</string>
+    <string name="new_game_title">Νέο παιχνίδι</string>
+    <string name="error_title">Σφάλμα</string>
+    <string name="new_game_error">Πρέπει να δώσετε όνομα παιχνιδιού και τουλάχιστον δύο παίχτες!</string>
+    <string name="confirm_title">Επιβεβαίωση</string>
+    <string name="delete_game_confirmation">Να διαγραφεί το παιχνίδι;</string>
+    <string name="yesno_end_game">Τέλος παιχνιδιού;</string>
+    <string name="add_score_dialog_title">Προσθήκη σκορ</string>
+    <string name="game_ended">Το παιχνίδι τελείωσε</string>
+    <string name="game_not_updated">Το παιχνίδι δεν ενημερώθηκε</string>
+    <string name="game_deleted">Το παιχνίδι διαγράφηκε</string>
+    <string name="cancel">Άκυρο</string>
+    <string name="ok">OK</string>
+    <string name="game_name_desc">Όνομα παιχνιδιού</string>
+    <string name="game_winner">Νικητής:</string>
+    <string name="game_max">Μεγαλύτερος</string>
+    <string name="game_min">Μικρότερος</string>
+    <string name="game_create">Δημιουργία</string>
+    <string name="players_desc">Παίκτες</string>
+    <string name="score_desc">Σκορ</string>
+    <string name="game_end_button">Τέλος παιχνιδιού</string>
+    <string name="no_duplicates">Δεν επιτρέπονται ίδια ονόματα!</string>
+    <string name="action_help">Βοήθεια</string>
+    <string name="help_section1">1. Αρχική οθόνη</string>
+    <string name="help_paragraph1_1">Στην αρχική οθόνη υπάρχει η λίστα των παιχνιδιών που έχετε καταχωρήσει ήδη,
+        και ένα κουμπί για να προσθέσετε ένα νέο παιχνίδι.</string>
+    <string name="help_paragraph1_2">Η λίστα στην αρχή είναι κενή και μπορείτε να καταχωρήσετε ένα νέο παιχνίδι.
+        Πατώντας το κουμπί θα μεταφερθείτε στην οθόνη εισαγωγής νέου παιχνιδιού.</string>
+    <string name="help_paragraph1_3">Με απλό πάτημα θα μεταφερθείτε στην οθόνη του παιχνιδιού.</string>
+    <string name="help_section2">2. Νέο παιχνίδι</string>
+    <string name="help_paragraph2_1">Για την δημιουργία ενός νέου παιχνιδιού πρέπει να δώσετε το όνομα του παιχνιδιού
+        και να επιλέξετε δύο παίκτες από την Λίστα Παικτών.</string>
+    <string name="help_paragraph2_2">Επιλέξτε τον τρόπο εκλογής του νικητή, αν θα είναι αυτός
+        με το μεγαλύτερο σκορ ή το μικρότερο.</string>
+    <string name="help_section3">3. Οθόνη παιχνιδιού.</string>
+    <string name="help_paragraph3_1">Εμφανίζονται οι παίκτες που παίρνουν μέρος στο παιχνίδι και τα σκορ τους. Πατώντας τα Σκουπίδια στην μπάρα θα διαγράψει το παιχνίδι. Πατώντας
+        σε έναν παίκτη μπορείτε να προσθέσετε στο σκορ του ένα ποσό.</string>
+    <string name="help_paragraph3_2">Η λίστα ταξινομείται σε κάθε εισαγωγή νέου σκορ με το μεγαλύτερο ή μικρότερο (ανάλογα το παιχνίδι)
+        στην κορυφή.</string>
+    <string name="help_paragraph3_3">Το παιχνίδι τελειώνει με το πάτημα του κουμπιού \"Τέλος παιχνιδιού\". Θα μεταφερθείτε τότε στην λίστα των
+        παιχνιδιών και το πεδίο \"Νικητής\" θα είναι συμπληρωμένο</string>
+    <string name="help_paragraph3_4">Αγγίζοντας παρατεταμένα την γραμμή ενός παίκτη θα εμφανίσει το ιστορικό του σκορ του.</string>
+    <string name="help_section4">4. Λίστα παικτών</string>
+    <string name="help_paragraph4_1">Στην Λίστα Παικτών μπορείτε να επιλέξετε ποιοι παίκτες θα πάρουν μέρος στο παιχνίδι.</string>
+    <string name="help_paragraph4_2">Με συνεχές άγγιγμα θα μεταφερθείτε στην οθόνη Επεξεργασίας Παίκτη όπου μπορείτε να αλλάξετε το όνομα και την εικόνα του.
+        Πατώντας τα Σκουπίδια στην μπάρα θα διαγράψει τον παίκτη, αν δεν έχει πάρει μέρος σε παιχνίδια.</string>
+    <string name="help_paragraph4_3">Μπορείτε να προσθέσετε νέο παίκτη αγγίζοντας το εικονίδιο Προσθήκη Νέου Παίκτη στην μπάρα. Πρέπει να δώσετε τουλάχιστον το όνομα του παίκτη.</string>
+    <string name="help_paragraph4_4">Μπορείτε να προσθέσετε εικόνα από την Συλλογή ή να πάρετε μια νέα με την κάμερα. Ακόμα μπορείτε να εισάγετε παίκτη από τις επαφές σας.</string>
+    <string name="search_menu_entry">Αναζήτηση</string>
+    <string name="action_about">Σχετικά</string>
+    <string name="created_by">Created by</string>
+    <string name="my_url">http://www.sv1jsb.gr</string>
+    <string name="sort_menu_entry">Ταξινόμηση</string>
+    <string name="search_gamename">Με όνομα παιχνιδιού</string>
+    <string name="search_playername">Με όνομα νικητή</string>
+    <string name="search_date_text">Με ημερομηνία</string>
+    <string name="nogames">Δεν βρέθηκαν παιχνίδια!</string>
+    <string name="noplayers">Δεν βρέθηκαν παίκτες</string>
+    <string name="addplayers">Προσθέστε παίκτες</string>
+    <string name="player_filter">Φιλτράρισμα λίστας</string>
+    <string name="new_player_menu">Νέος παίκτης</string>
+    <string name="player_name_hint">Όνομα παίκτη</string>
+    <string name="player_photo">Φωτογραφία παίκτη</string>
+    <string name="choose_players">Επιλογή παικτών</string>
+    <string name="no_player_name">Το όνομα του παίκτη είναι κενό</string>
+    <string name="player_photo_btn">Εικόνα</string>
+    <string name="edit_player_sub">Επεξ. παίκτη</string>
+    <string name="no_camera_found">Δεν υπάρχει κάμερα</string>
+    <string name="no_gallery_found">Δεν υπάρχει Συλλογή</string>
+    <string name="import_from_contacts">Εισαγωγή από</string>
+    <string name="edit_image">Επεξ. εικόνας</string>
+    <string name="delete_player">Διαγραφή παίκτη</string>
+    <string name="delete_player_confirmation">Να διαγραφεί ο παίκτης;</string>
+    <string name="player_has_games">Ο παίκτης συμμετέχει σε παιχνίδια και δεν μπορεί να διαγραφεί!</string>
+    <string name="first_delete_games">Διαγράψτε πρώτα τα παιχνίδια:</string>
+    <string name="player_deleted_ok">Ο παίκτης διαγράφηκε!</string>
+    <string name="player_deleted_error">Πρόβλημα κατά την διαγραφή!</string>
+    <string name="delete_game">Διαγραφή παιχνιδιού</string>
+    <string name="no_score_yet">Δεν υπάρχει σκορ</string>
+    <string name="score_history">Ιστορικό σκορ</string>
+    <string name="url_sv1jsb">http://www.sv1jsb.gr</string>
+    <string-array name="sort_array">
+        <item>Κανονική</item>
+        <item>Παιχνίδι</item>
+        <item>Νικητής</item>
+        <item>Ημερομηνία (Αύξουσα)</item>
+    </string-array>
+    <string-array name="method_array">
+        <item>Μεγαλύτερος</item>
+        <item>Μικρότερος</item>
+    </string-array>
+    <string-array name="photo_array">
+        <item>Από κάμερα</item>
+        <item>Από συλλογή</item>
+    </string-array>
+    <string-array name="import_from_array">
+        <item>Επαφές</item>
+    </string-array>
+</resources>
